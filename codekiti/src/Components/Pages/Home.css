@@ -1,0 +1,36 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .welcome-text {
+    font-family: Lora;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 78px;
+    text-align: left;
+    
+  }
+
+  .welcome-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .welcome-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .image-container {
+    max-width: 45%;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+  
