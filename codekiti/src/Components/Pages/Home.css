@@ -1,4 +1,11 @@
 /* Home.css */
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  background-color:#000 ;
+}
 .home-container {
     display: flex;
     justify-content: space-between;
@@ -7,7 +14,7 @@
     background-color: #000;
     color: #fff;
   }
-  
+
   .welcome-text {
     font-family: Lora;
     font-size: 50px;
@@ -33,4 +40,72 @@
   .image-container img {
     max-width: 100%;
   }
+  .mission-container{
+      width: 1250px;
+      height: 617px;
+      gap: 0px;
+      border-radius: 15px 0px 0px 0px;
+      border: 1px solid transparent; 
+      border-image-source: linear-gradient(74.94deg, #FFFFFF -2.68%, rgba(255, 255, 255, 0) 93.27%);
+      border-image-slice: 1;
+      background: linear-gradient(180deg, rgba(176, 220, 244, 0.0328) 0%, rgba(176, 220, 244, 0) 102.92%);
+      box-shadow: 4px 6px 4px 8px #7FCAF42E;
+      margin-left: 95px;
+  }
+  .our-container{
+    width: 667px;
+height: 83px;
+margin-top: 28px;
+margin-left: 266px;
+gap: 0px;
+opacity: 0px;
+}
+.our-container h1{
+  font-family: Outfit;
+font-size: 68px;
+font-weight: 600;
+line-height: 83px;
+letter-spacing: -0.02em;
+text-align: center;
+color: white;
+}
+.our-container h1 span{
+  font-family: Outfit;
+font-size: 68px;
+font-weight: 600;
+line-height: 83px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #00C4F4;
+}
+.mission-container .h3{
+  width: 505px;
+height: 41px;
+margin-top: 90px;
+margin-left: 673px;
+gap: 0px;
+opacity: 0px;
+}
+.mission-container h3{
+  font-family: Lora;
+font-size: 28px;
+font-weight: 600;
+line-height: 35.84px;
+text-align: left;
+color: #0076CE;
+}
+.mission-container .text1{
+  width: 438px;
+height: 130px;
+margin-top: 50px;
+margin-left: 707px;
+}
+.mission-container .text1 p{
+  font-family: Outfit;
+font-size: 22px;
+font-weight: 500;
+line-height: 27.72px;
+text-align: left;
+color: white;
+}
   
